@@ -1,0 +1,632 @@
+{
+  "tasks": [
+    {
+      "id": "TASK-001",
+      "title": "Medicana Hastanesi ile görüşme planla",
+      "description": "Yeni cerrahi malzeme tedarik anlaşması için yüz yüze görüşme ayarlanacak. Hastane yönetimi ve satın alma departmanı ile koordinasyon sağlanması gerekiyor.",
+      "type": "meeting",
+      "priority": "high",
+      "status": "in_progress",
+      "assignedTo": "2",
+      "assignedToName": "Zeynep Kaya",
+      "createdBy": "1",
+      "createdByName": "Ahmet Yıldız",
+      "customerId": "1",
+      "customerName": "Medicana Hastanesi",
+      "opportunityId": "1",
+      "dueDate": "2025-01-20T14:00:00Z",
+      "startDate": "2025-01-20T14:00:00Z",
+      "endDate": "2025-01-20T16:00:00Z",
+      "completedAt": null,
+      "estimatedHours": 2,
+      "actualHours": 0,
+      "progress": 60,
+      "tags": ["satış", "yüksek öncelik", "medicana", "toplantı"],
+      "attachments": [
+        {
+          "id": "1",
+          "name": "medicana_proposal.pdf",
+          "size": 2450000,
+          "type": "application/pdf",
+          "uploadedAt": "2024-12-15T10:30:00Z"
+        }
+      ],
+      "comments": [
+        {
+          "id": "1",
+          "userId": "2",
+          "userName": "Zeynep Kaya",
+          "comment": "Hastane ile ilk temas kuruldu, olumlu geri dönüş alındı",
+          "createdAt": "2024-12-16T11:20:00Z"
+        },
+        {
+          "id": "2",
+          "userId": "1",
+          "userName": "Ahmet Yıldız",
+          "comment": "Teklif hazırlandı, toplantı tarihi kesinleştirilmeli",
+          "createdAt": "2024-12-17T09:45:00Z"
+        }
+      ],
+      "subtasks": [
+        {
+          "id": "ST-001",
+          "title": "Hastane satın alma departmanı ile iletişime geç",
+          "completed": true,
+          "completedAt": "2024-12-16T11:20:00Z"
+        },
+        {
+          "id": "ST-002",
+          "title": "Teklif dokümanını hazırla",
+          "completed": true,
+          "completedAt": "2024-12-17T14:30:00Z"
+        },
+        {
+          "id": "ST-003",
+          "title": "Toplantı tarihi ve saati belirle",
+          "completed": false,
+          "completedAt": null
+        }
+      ],
+      "reminders": [
+        {
+          "id": "1",
+          "type": "email",
+          "scheduledFor": "2025-01-19T09:00:00Z",
+          "message": "Medicana toplantısı yarın saat 14:00'da"
+        }
+      ],
+      "createdAt": "2024-12-15T10:30:00Z",
+      "updatedAt": "2024-12-17T14:30:00Z"
+    },
+    {
+      "id": "TASK-002",
+      "title": "Stok sayımı - Aralık 2024",
+      "description": "Aylık rutin stok sayımı yapılacak. Tüm ürün kategorilerinde fiziksel sayım ile sistem verilerinin karşılaştırılması gerekiyor.",
+      "type": "inventory",
+      "priority": "medium",
+      "status": "completed",
+      "assignedTo": "5",
+      "assignedToName": "Emre Avcı",
+      "createdBy": "1",
+      "createdByName": "Ahmet Yıldız",
+      "customerId": null,
+      "customerName": null,
+      "opportunityId": null,
+      "dueDate": "2024-12-18T17:00:00Z",
+      "startDate": "2024-12-16T09:00:00Z",
+      "endDate": "2024-12-18T17:00:00Z",
+      "completedAt": "2024-12-18T16:30:00Z",
+      "estimatedHours": 16,
+      "actualHours": 15.5,
+      "progress": 100,
+      "tags": ["stok", "sayım", "rutin", "tamamlandı"],
+      "attachments": [
+        {
+          "id": "2",
+          "name": "stok_sayim_raporu_aralik_2024.xlsx",
+          "size": 1250000,
+          "type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "uploadedAt": "2024-12-18T16:45:00Z"
+        }
+      ],
+      "comments": [
+        {
+          "id": "3",
+          "userId": "5",
+          "userName": "Emre Avcı",
+          "comment": "Sayım başladı, personal_protection kategorisi tamamlandı",
+          "createdAt": "2024-12-16T15:30:00Z"
+        },
+        {
+          "id": "4",
+          "userId": "5",
+          "userName": "Emre Avcı",
+          "comment": "5 üründe minor farklılık tespit edildi, sistem güncellendi",
+          "createdAt": "2024-12-18T16:30:00Z"
+        }
+      ],
+      "subtasks": [
+        {
+          "id": "ST-004",
+          "title": "Kişisel koruyucu ekipman sayımı",
+          "completed": true,
+          "completedAt": "2024-12-16T15:30:00Z"
+        },
+        {
+          "id": "ST-005",
+          "title": "Tıbbi cihaz sayımı",
+          "completed": true,
+          "completedAt": "2024-12-17T14:00:00Z"
+        },
+        {
+          "id": "ST-006",
+          "title": "İlaç ve farmasötik sayımı",
+          "completed": true,
+          "completedAt": "2024-12-18T11:30:00Z"
+        },
+        {
+          "id": "ST-007",
+          "title": "Rapor hazırlama",
+          "completed": true,
+          "completedAt": "2024-12-18T16:30:00Z"
+        }
+      ],
+      "reminders": [],
+      "createdAt": "2024-12-10T09:00:00Z",
+      "updatedAt": "2024-12-18T16:30:00Z"
+    },
+    {
+      "id": "TASK-003",
+      "title": "Sağlık Eczanesi ödeme takibi",
+      "description": "Vadesi geçmiş fatura için müşteri ile iletişime geçilerek ödeme planı görüşülecek. Gerekirse taksitli ödeme seçenekleri sunulacak.",
+      "type": "finance",
+      "priority": "high",
+      "status": "pending",
+      "assignedTo": "4",
+      "assignedToName": "Ayşe Özkan",
+      "createdBy": "3",
+      "createdByName": "Mehmet Demir",
+      "customerId": "6",
+      "customerName": "Sağlık Eczanesi",
+      "opportunityId": null,
+      "dueDate": "2024-12-20T17:00:00Z",
+      "startDate": "2024-12-19T09:00:00Z",
+      "endDate": "2024-12-20T17:00:00Z",
+      "completedAt": null,
+      "estimatedHours": 4,
+      "actualHours": 0,
+      "progress": 0,
+      "tags": ["finans", "ödeme takibi", "vadesi geçti", "acil"],
+      "attachments": [
+        {
+          "id": "3",
+          "name": "fatura_BM-2024-003.pdf",
+          "size": 850000,
+          "type": "application/pdf",
+          "uploadedAt": "2024-12-18T14:15:00Z"
+        }
+      ],
+      "comments": [
+        {
+          "id": "5",
+          "userId": "3",
+          "userName": "Mehmet Demir",
+          "comment": "Fatura vadesi geçti, müşteri ile ivedilikle görüşülmeli",
+          "createdAt": "2024-12-18T14:15:00Z"
+        }
+      ],
+      "subtasks": [
+        {
+          "id": "ST-008",
+          "title": "Müşteri ile telefon görüşmesi yap",
+          "completed": false,
+          "completedAt": null
+        },
+        {
+          "id": "ST-009",
+          "title": "Ödeme planı seçeneklerini sun",
+          "completed": false,
+          "completedAt": null
+        }
+      ],
+      "reminders": [
+        {
+          "id": "2",
+          "type": "email",
+          "scheduledFor": "2024-12-19T08:00:00Z",
+          "message": "Sağlık Eczanesi ödeme takibi görevi başlıyor"
+        }
+      ],
+      "createdAt": "2024-12-18T14:15:00Z",
+      "updatedAt": "2024-12-18T14:15:00Z"
+    },
+    {
+      "id": "TASK-004",
+      "title": "MedProtect Europe sipariş takibi",
+      "description": "Avrupa'dan gelecek büyük sipariş için kargo takibi yapılacak. Gümrük işlemleri kontrol edilecek ve teslimat tarihi müşterilere bildirilecek.",
+      "type": "logistics",
+      "priority": "medium",
+      "status": "in_progress",
+      "assignedTo": "5",
+      "assignedToName": "Emre Avcı",
+      "createdBy": "1",
+      "createdByName": "Ahmet Yıldız",
+      "customerId": null,
+      "customerName": null,
+      "opportunityId": null,
+      "dueDate": "2024-12-25T18:00:00Z",
+      "startDate": "2024-12-18T10:00:00Z",
+      "endDate": "2024-12-25T18:00:00Z",
+      "completedAt": null,
+      "estimatedHours": 12,
+      "actualHours": 4,
+      "progress": 35,
+      "tags": ["lojistik", "uluslararası", "gümrük", "takip"],
+      "attachments": [
+        {
+          "id": "4",
+          "name": "kargo_takip_belgesi.pdf",
+          "size": 650000,
+          "type": "application/pdf",
+          "uploadedAt": "2024-12-18T11:30:00Z"
+        }
+      ],
+      "comments": [
+        {
+          "id": "6",
+          "userId": "5",
+          "userName": "Emre Avcı",
+          "comment": "Kargo Frankfurt'tan ayrıldı, 3-4 gün içinde İstanbul'a gelecek",
+          "createdAt": "2024-12-18T11:30:00Z"
+        }
+      ],
+      "subtasks": [
+        {
+          "id": "ST-010",
+          "title": "Kargo takip numarasını kontrol et",
+          "completed": true,
+          "completedAt": "2024-12-18T11:00:00Z"
+        },
+        {
+          "id": "ST-011",
+          "title": "Gümrük broker ile iletişime geç",
+          "completed": false,
+          "completedAt": null
+        },
+        {
+          "id": "ST-012",
+          "title": "Müşterilere teslimat tarihi bildir",
+          "completed": false,
+          "completedAt": null
+        }
+      ],
+      "reminders": [
+        {
+          "id": "3",
+          "type": "sms",
+          "scheduledFor": "2024-12-21T10:00:00Z",
+          "message": "MedProtect sipariş durumu kontrol et"
+        }
+      ],
+      "createdAt": "2024-12-18T10:00:00Z",
+      "updatedAt": "2024-12-18T11:30:00Z"
+    },
+    {
+      "id": "TASK-005",
+      "title": "Antalya Eğitim Hastanesi teklifini hazırla",
+      "description": "Hastane genişleme projesi kapsamında tıbbi cihaz ve malzeme teklifi hazırlanacak. Detaylı fiyat analizi ve teslimat planı oluşturulacak.",
+      "type": "proposal",
+      "priority": "high",
+      "status": "pending",
+      "assignedTo": "2",
+      "assignedToName": "Zeynep Kaya",
+      "createdBy": "2",
+      "createdByName": "Zeynep Kaya",
+      "customerId": "7",
+      "customerName": "Antalya Eğitim ve Araştırma Hastanesi",
+      "opportunityId": null,
+      "dueDate": "2024-12-22T17:00:00Z",
+      "startDate": "2024-12-19T09:00:00Z",
+      "endDate": "2024-12-22T17:00:00Z",
+      "completedAt": null,
+      "estimatedHours": 8,
+      "actualHours": 0,
+      "progress": 0,
+      "tags": ["teklif", "hastane", "antalya", "genişleme projesi"],
+      "attachments": [
+        {
+          "id": "5",
+          "name": "antalya_hastanesi_ihtiyac_listesi.xlsx",
+          "size": 1100000,
+          "type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "uploadedAt": "2024-12-18T15:20:00Z"
+        }
+      ],
+      "comments": [
+        {
+          "id": "7",
+          "userId": "2",
+          "userName": "Zeynep Kaya",
+          "comment": "İhtiyaç listesi alındı, detaylı analiz başlayacak",
+          "createdAt": "2024-12-18T15:20:00Z"
+        }
+      ],
+      "subtasks": [
+        {
+          "id": "ST-013",
+          "title": "İhtiyaç listesini analiz et",
+          "completed": false,
+          "completedAt": null
+        },
+        {
+          "id": "ST-014",
+          "title": "Tedarikçi fiyatlarını al",
+          "completed": false,
+          "completedAt": null
+        },
+        {
+          "id": "ST-015",
+          "title": "Teklifи hazırla",
+          "completed": false,
+          "completedAt": null
+        }
+      ],
+      "reminders": [
+        {
+          "id": "4",
+          "type": "email",
+          "scheduledFor": "2024-12-19T08:30:00Z",
+          "message": "Antalya hastanesi teklifi hazırlanmaya başlanacak"
+        }
+      ],
+      "createdAt": "2024-12-18T15:20:00Z",
+      "updatedAt": "2024-12-18T15:20:00Z"
+    },
+    {
+      "id": "TASK-006",
+      "title": "Yıl sonu muhasebe kapatması hazırlığı",
+      "description": "2024 yılı muhasebe kapatması için gerekli belgelerin toplanması ve düzenlenmesi. Mali müşavir ile koordinasyon sağlanacak.",
+      "type": "finance",
+      "priority": "high",
+      "status": "in_progress",
+      "assignedTo": "3",
+      "assignedToName": "Mehmet Demir",
+      "createdBy": "1",
+      "createdByName": "Ahmet Yıldız",
+      "customerId": null,
+      "customerName": null,
+      "opportunityId": null,
+      "dueDate": "2024-12-30T17:00:00Z",
+      "startDate": "2024-12-18T09:00:00Z",
+      "endDate": "2024-12-30T17:00:00Z",
+      "completedAt": null,
+      "estimatedHours": 20,
+      "actualHours": 8,
+      "progress": 40,
+      "tags": ["muhasebe", "yıl sonu", "kapatma", "mali müşavir"],
+      "attachments": [
+        {
+          "id": "6",
+          "name": "muhasebe_evraklari_listesi.docx",
+          "size": 350000,
+          "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "uploadedAt": "2024-12-18T10:45:00Z"
+        }
+      ],
+      "comments": [
+        {
+          "id": "8",
+          "userId": "3",
+          "userName": "Mehmet Demir",
+          "comment": "Fatura ve dekont toplama işlemine başlandı",
+          "createdAt": "2024-12-18T10:45:00Z"
+        }
+      ],
+      "subtasks": [
+        {
+          "id": "ST-016",
+          "title": "Tüm faturaları topla",
+          "completed": true,
+          "completedAt": "2024-12-18T16:00:00Z"
+        },
+        {
+          "id": "ST-017",
+          "title": "Gider dekontlarını düzenle",
+          "completed": false,
+          "completedAt": null
+        },
+        {
+          "id": "ST-018",
+          "title": "Mali müşavir ile toplantı ayarla",
+          "completed": false,
+          "completedAt": null
+        }
+      ],
+      "reminders": [
+        {
+          "id": "5",
+          "type": "email",
+          "scheduledFor": "2024-12-25T09:00:00Z",
+          "message": "Yıl sonu kapatması için son 5 gün kaldı"
+        }
+      ],
+      "createdAt": "2024-12-16T09:00:00Z",
+      "updatedAt": "2024-12-18T16:00:00Z"
+    },
+    {
+      "id": "TASK-007",
+      "title": "Müşteri memnuniyeti anketi hazırla",
+      "description": "2024 yılı müşteri deneyimlerini değerlendirmek için kapsamlı anket formu hazırlanacak ve tüm aktif müşterilere gönderilecek.",
+      "type": "customer_service",
+      "priority": "low",
+      "status": "pending",
+      "assignedTo": "4",
+      "assignedToName": "Ayşe Özkan",
+      "createdBy": "1",
+      "createdByName": "Ahmet Yıldız",
+      "customerId": null,
+      "customerName": null,
+      "opportunityId": null,
+      "dueDate": "2024-12-28T17:00:00Z",
+      "startDate": "2024-12-21T09:00:00Z",
+      "endDate": "2024-12-28T17:00:00Z",
+      "completedAt": null,
+      "estimatedHours": 6,
+      "actualHours": 0,
+      "progress": 0,
+      "tags": ["müşteri memnuniyeti", "anket", "2024 değerlendirme"],
+      "attachments": [],
+      "comments": [
+        {
+          "id": "9",
+          "userId": "1",
+          "userName": "Ahmet Yıldız",
+          "comment": "Yıl sonu değerlendirmesi için önemli, detaylı hazırlanmalı",
+          "createdAt": "2024-12-18T11:00:00Z"
+        }
+      ],
+      "subtasks": [
+        {
+          "id": "ST-019",
+          "title": "Anket sorularını hazırla",
+          "completed": false,
+          "completedAt": null
+        },
+        {
+          "id": "ST-020",
+          "title": "Online anket formu oluştur",
+          "completed": false,
+          "completedAt": null
+        },
+        {
+          "id": "ST-021",
+          "title": "Müşteri listesini hazırla",
+          "completed": false,
+          "completedAt": null
+        }
+      ],
+      "reminders": [
+        {
+          "id": "6",
+          "type": "email",
+          "scheduledFor": "2024-12-21T08:00:00Z",
+          "message": "Müşteri memnuniyeti anketi hazırlanmaya başlanacak"
+        }
+      ],
+      "createdAt": "2024-12-18T11:00:00Z",
+      "updatedAt": "2024-12-18T11:00:00Z"
+    }
+  ],
+  "taskTypes": [
+    {
+      "id": "meeting",
+      "name": "Toplantı",
+      "description": "Müşteri ve iş ortağı toplantıları",
+      "color": "#3B82F6",
+      "icon": "users"
+    },
+    {
+      "id": "inventory",
+      "name": "Envanter",
+      "description": "Stok ve envanter işlemleri",
+      "color": "#F59E0B",
+      "icon": "archive"
+    },
+    {
+      "id": "finance",
+      "name": "Finans",
+      "description": "Mali işler ve muhasebe",
+      "color": "#10B981",
+      "icon": "currency-dollar"
+    },
+    {
+      "id": "logistics",
+      "name": "Lojistik",
+      "description": "Kargo, sevkiyat ve tedarik",
+      "color": "#8B5CF6",
+      "icon": "truck"
+    },
+    {
+      "id": "proposal",
+      "name": "Teklif",
+      "description": "Müşteri teklifleri hazırlama",
+      "color": "#EF4444",
+      "icon": "document-text"
+    },
+    {
+      "id": "customer_service",
+      "name": "Müşteri Hizmetleri",
+      "description": "Müşteri destek ve hizmetler",
+      "color": "#06B6D4",
+      "icon": "support"
+    },
+    {
+      "id": "marketing",
+      "name": "Pazarlama",
+      "description": "Pazarlama ve promosyon",
+      "color": "#EC4899",
+      "icon": "megaphone"
+    },
+    {
+      "id": "administrative",
+      "name": "İdari",
+      "description": "İdari işler ve dökümanlar",
+      "color": "#6B7280",
+      "icon": "folder"
+    }
+  ],
+  "taskStatuses": [
+    {
+      "id": "pending",
+      "name": "Beklemede",
+      "description": "Görev henüz başlamadı",
+      "color": "#94A3B8",
+      "order": 1
+    },
+    {
+      "id": "in_progress",
+      "name": "Devam Ediyor",
+      "description": "Görev üzerinde çalışılıyor",
+      "color": "#3B82F6",
+      "order": 2
+    },
+    {
+      "id": "review",
+      "name": "İnceleme",
+      "description": "Görev incelenmek üzere",
+      "color": "#F59E0B",
+      "order": 3
+    },
+    {
+      "id": "completed",
+      "name": "Tamamlandı",
+      "description": "Görev başarıyla tamamlandı",
+      "color": "#10B981",
+      "order": 4
+    },
+    {
+      "id": "cancelled",
+      "name": "İptal Edildi",
+      "description": "Görev iptal edildi",
+      "color": "#EF4444",
+      "order": 5
+    },
+    {
+      "id": "on_hold",
+      "name": "Askıda",
+      "description": "Görev geçici olarak durduruldu",
+      "color": "#F97316",
+      "order": 6
+    }
+  ],
+  "taskPriorities": [
+    {
+      "id": "low",
+      "name": "Düşük",
+      "description": "Düşük öncelikli görevler",
+      "color": "#10B981",
+      "value": 1
+    },
+    {
+      "id": "medium",
+      "name": "Orta",
+      "description": "Orta öncelikli görevler",
+      "color": "#F59E0B",
+      "value": 2
+    },
+    {
+      "id": "high",
+      "name": "Yüksek",
+      "description": "Yüksek öncelikli görevler",
+      "color": "#EF4444",
+      "value": 3
+    },
+    {
+      "id": "urgent",
+      "name": "Acil",
+      "description": "Acil müdahale gerektiren görevler",
+      "color": "#DC2626",
+      "value": 4
+    }
+  ]
+}

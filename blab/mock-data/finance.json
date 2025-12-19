@@ -1,0 +1,420 @@
+{
+  "invoices": [
+    {
+      "id": "INV-2024-001",
+      "invoiceNumber": "BM-2024-001",
+      "customerId": "1",
+      "customerName": "Medicana Hastanesi",
+      "contactPerson": "Dr. Fatma Şen",
+      "orderId": "ORD-001",
+      "issueDate": "2024-12-16T10:30:00Z",
+      "dueDate": "2025-01-15T00:00:00Z",
+      "paymentDate": null,
+      "status": "sent",
+      "totalAmount": 245750,
+      "paidAmount": 0,
+      "remainingAmount": 245750,
+      "currency": "TRY",
+      "taxRate": 18,
+      "taxAmount": 37482,
+      "subtotal": 208268,
+      "paymentTerms": "30 gün",
+      "billingAddress": {
+        "street": "Büyükdere Caddesi No:102",
+        "city": "İstanbul",
+        "district": "Şişli",
+        "postalCode": "34394",
+        "country": "Türkiye"
+      },
+      "items": [
+        {
+          "id": "1",
+          "productId": "1",
+          "productName": "Cerrahi Maske FFP2",
+          "sku": "MASK-FFP2-001",
+          "quantity": 5000,
+          "unitPrice": 15.50,
+          "totalPrice": 77500,
+          "taxRate": 18,
+          "taxAmount": 13950
+        },
+        {
+          "id": "2",
+          "productId": "2",
+          "productName": "Eldiven Nitril Mavi",
+          "sku": "GLOVE-NIT-002",
+          "quantity": 500,
+          "unitPrice": 85.00,
+          "totalPrice": 42500,
+          "taxRate": 18,
+          "taxAmount": 7650
+        },
+        {
+          "id": "3",
+          "productId": "6",
+          "productName": "Paracetamol 500mg Tablet",
+          "sku": "PARA-500-006",
+          "quantity": 2000,
+          "unitPrice": 25.75,
+          "totalPrice": 51500,
+          "taxRate": 18,
+          "taxAmount": 9270
+        }
+      ],
+      "notes": "Acil teslimat talebi - 30 gün vadeli ödeme",
+      "createdAt": "2024-12-16T10:30:00Z",
+      "updatedAt": "2024-12-16T10:30:00Z",
+      "createdBy": "3",
+      "createdByName": "Mehmet Demir"
+    },
+    {
+      "id": "INV-2024-002",
+      "invoiceNumber": "BM-2024-002",
+      "customerId": "5",
+      "customerName": "İzmir Katip Çelebi Üniversitesi Hastanesi",
+      "contactPerson": "Doç. Dr. Ayşe Tuncer",
+      "orderId": "ORD-002",
+      "issueDate": "2024-12-13T14:20:00Z",
+      "dueDate": "2025-01-27T00:00:00Z",
+      "paymentDate": "2024-12-18T16:45:00Z",
+      "status": "paid",
+      "totalAmount": 185400,
+      "paidAmount": 185400,
+      "remainingAmount": 0,
+      "currency": "TRY",
+      "taxRate": 18,
+      "taxAmount": 28272,
+      "subtotal": 157128,
+      "paymentTerms": "45 gün",
+      "billingAddress": {
+        "street": "Çiğli Kampüsü",
+        "city": "İzmir",
+        "district": "Çiğli",
+        "postalCode": "35620",
+        "country": "Türkiye"
+      },
+      "items": [
+        {
+          "id": "4",
+          "productId": "3",
+          "productName": "Dijital Termometre",
+          "sku": "THERM-DIG-003",
+          "quantity": 100,
+          "unitPrice": 125.00,
+          "totalPrice": 12500,
+          "taxRate": 18,
+          "taxAmount": 2250
+        },
+        {
+          "id": "5",
+          "productId": "5",
+          "productName": "Serum Fizyolojik 100ml",
+          "sku": "SERUM-PHY-005",
+          "quantity": 5000,
+          "unitPrice": 12.50,
+          "totalPrice": 62500,
+          "taxRate": 18,
+          "taxAmount": 11250
+        },
+        {
+          "id": "6",
+          "productId": "9",
+          "productName": "Şırınga 10ml Steril",
+          "sku": "SYR-10ML-009",
+          "quantity": 8000,
+          "unitPrice": 4.50,
+          "totalPrice": 36000,
+          "taxRate": 18,
+          "taxAmount": 6480
+        }
+      ],
+      "notes": "Üniversite hastanesi - erken ödeme indirimi uygulandı",
+      "createdAt": "2024-12-13T14:20:00Z",
+      "updatedAt": "2024-12-18T16:45:00Z",
+      "createdBy": "3",
+      "createdByName": "Mehmet Demir"
+    },
+    {
+      "id": "INV-2024-003",
+      "invoiceNumber": "BM-2024-003",
+      "customerId": "6",
+      "customerName": "Sağlık Eczanesi",
+      "contactPerson": "Eczacı Mustafa Yıldırım",
+      "orderId": "ORD-003",
+      "issueDate": "2024-12-11T09:15:00Z",
+      "dueDate": "2024-12-26T00:00:00Z",
+      "paymentDate": "2024-12-17T11:30:00Z",
+      "status": "paid",
+      "totalAmount": 95800,
+      "paidAmount": 95800,
+      "remainingAmount": 0,
+      "currency": "TRY",
+      "taxRate": 18,
+      "taxAmount": 14606,
+      "subtotal": 81194,
+      "paymentTerms": "15 gün",
+      "billingAddress": {
+        "street": "Altıparmak Caddesi No:67",
+        "city": "Bursa",
+        "district": "Osmangazi",
+        "postalCode": "16040",
+        "country": "Türkiye"
+      },
+      "items": [
+        {
+          "id": "7",
+          "productId": "6",
+          "productName": "Paracetamol 500mg Tablet",
+          "sku": "PARA-500-006",
+          "quantity": 1000,
+          "unitPrice": 25.75,
+          "totalPrice": 25750,
+          "taxRate": 18,
+          "taxAmount": 4635
+        },
+        {
+          "id": "8",
+          "productId": "1",
+          "productName": "Cerrahi Maske FFP2",
+          "sku": "MASK-FFP2-001",
+          "quantity": 2000,
+          "unitPrice": 15.50,
+          "totalPrice": 31000,
+          "taxRate": 18,
+          "taxAmount": 5580
+        },
+        {
+          "id": "9",
+          "productId": "8",
+          "productName": "Gazlı Bez Steril 10x10cm",
+          "sku": "GAUZE-ST-008",
+          "quantity": 3000,
+          "unitPrice": 3.25,
+          "totalPrice": 9750,
+          "taxRate": 18,
+          "taxAmount": 1755
+        }
+      ],
+      "notes": "Düzenli müşteri - nakit ödeme",
+      "createdAt": "2024-12-11T09:15:00Z",
+      "updatedAt": "2024-12-17T11:30:00Z",
+      "createdBy": "3",
+      "createdByName": "Mehmet Demir"
+    }
+  ],
+  "payments": [
+    {
+      "id": "PAY-2024-001",
+      "invoiceId": "INV-2024-002",
+      "invoiceNumber": "BM-2024-002",
+      "customerId": "5",
+      "customerName": "İzmir Katip Çelebi Üniversitesi Hastanesi",
+      "paymentDate": "2024-12-18T16:45:00Z",
+      "amount": 185400,
+      "currency": "TRY",
+      "paymentMethod": "bank_transfer",
+      "referenceNumber": "TRF-20241218-001",
+      "status": "completed",
+      "bankAccount": "Garanti Bankası - İstanbul Şubesi",
+      "notes": "Havale ile ödeme - erken ödeme indirimi uygulandı",
+      "processedBy": "3",
+      "processedByName": "Mehmet Demir",
+      "createdAt": "2024-12-18T16:45:00Z",
+      "updatedAt": "2024-12-18T16:45:00Z"
+    },
+    {
+      "id": "PAY-2024-002",
+      "invoiceId": "INV-2024-003",
+      "invoiceNumber": "BM-2024-003",
+      "customerId": "6",
+      "customerName": "Sağlık Eczanesi",
+      "paymentDate": "2024-12-17T11:30:00Z",
+      "amount": 95800,
+      "currency": "TRY",
+      "paymentMethod": "cash",
+      "referenceNumber": "CSH-20241217-001",
+      "status": "completed",
+      "bankAccount": null,
+      "notes": "Nakit ödeme - kasaya teslim edildi",
+      "processedBy": "3",
+      "processedByName": "Mehmet Demir",
+      "createdAt": "2024-12-17T11:30:00Z",
+      "updatedAt": "2024-12-17T11:30:00Z"
+    }
+  ],
+  "expenses": [
+    {
+      "id": "EXP-2024-001",
+      "category": "supplier_payment",
+      "description": "MedProtect Europe - Sipariş ödemesi",
+      "amount": 125000,
+      "currency": "EUR",
+      "exchangeRate": 36.5,
+      "amountTRY": 4562500,
+      "expenseDate": "2024-12-18T14:30:00Z",
+      "paymentMethod": "bank_transfer",
+      "referenceNumber": "WIRE-20241218-EUR001",
+      "supplierId": "1",
+      "supplierName": "MedProtect Europe GmbH",
+      "purchaseOrderId": "PO-2024-001",
+      "status": "paid",
+      "approvedBy": "1",
+      "approvedByName": "Ahmet Yıldız",
+      "processedBy": "3",
+      "processedByName": "Mehmet Demir",
+      "notes": "Yıllık ana sipariş ödemesi",
+      "createdAt": "2024-12-18T14:30:00Z",
+      "updatedAt": "2024-12-18T14:30:00Z"
+    },
+    {
+      "id": "EXP-2024-002",
+      "category": "operating_expense",
+      "description": "Ofis kirası - Aralık 2024",
+      "amount": 45000,
+      "currency": "TRY",
+      "exchangeRate": 1,
+      "amountTRY": 45000,
+      "expenseDate": "2024-12-01T09:00:00Z",
+      "paymentMethod": "bank_transfer",
+      "referenceNumber": "RENT-202412",
+      "supplierId": null,
+      "supplierName": null,
+      "purchaseOrderId": null,
+      "status": "paid",
+      "approvedBy": "1",
+      "approvedByName": "Ahmet Yıldız",
+      "processedBy": "3",
+      "processedByName": "Mehmet Demir",
+      "notes": "Aylık ofis kira ödemesi",
+      "createdAt": "2024-12-01T09:00:00Z",
+      "updatedAt": "2024-12-01T09:00:00Z"
+    }
+  ],
+  "budgets": [
+    {
+      "id": "BUD-2025-Q1",
+      "name": "2025 1. Çeyrek Bütçesi",
+      "period": "Q1",
+      "year": 2025,
+      "startDate": "2025-01-01T00:00:00Z",
+      "endDate": "2025-03-31T23:59:59Z",
+      "totalBudget": 5000000,
+      "currency": "TRY",
+      "categories": [
+        {
+          "category": "revenue",
+          "name": "Gelir",
+          "budgetAmount": 3500000,
+          "actualAmount": 0,
+          "variance": -3500000
+        },
+        {
+          "category": "supplier_payment",
+          "name": "Tedarikçi Ödemeleri",
+          "budgetAmount": 2000000,
+          "actualAmount": 0,
+          "variance": 2000000
+        },
+        {
+          "category": "operating_expense",
+          "name": "İşletme Giderleri",
+          "budgetAmount": 500000,
+          "actualAmount": 0,
+          "variance": 500000
+        },
+        {
+          "category": "salary",
+          "name": "Personel Giderleri",
+          "budgetAmount": 850000,
+          "actualAmount": 0,
+          "variance": 850000
+        }
+      ],
+      "createdBy": "1",
+      "createdByName": "Ahmet Yıldız",
+      "createdAt": "2024-12-01T10:00:00Z",
+      "updatedAt": "2024-12-01T10:00:00Z"
+    }
+  ],
+  "invoiceStatuses": [
+    {
+      "id": "draft",
+      "name": "Taslak",
+      "description": "Fatura hazırlanıyor",
+      "color": "#94A3B8"
+    },
+    {
+      "id": "sent",
+      "name": "Gönderildi",
+      "description": "Müşteriye gönderildi",
+      "color": "#3B82F6"
+    },
+    {
+      "id": "paid",
+      "name": "Ödendi",
+      "description": "Ödeme tamamlandı",
+      "color": "#10B981"
+    },
+    {
+      "id": "overdue",
+      "name": "Vadesi Geçti",
+      "description": "Ödeme vadesi geçti",
+      "color": "#EF4444"
+    },
+    {
+      "id": "cancelled",
+      "name": "İptal Edildi",
+      "description": "Fatura iptal edildi",
+      "color": "#6B7280"
+    }
+  ],
+  "paymentMethods": [
+    {
+      "id": "bank_transfer",
+      "name": "Banka Havalesi",
+      "description": "EFT/Havale ile ödeme"
+    },
+    {
+      "id": "cash",
+      "name": "Nakit",
+      "description": "Nakit ödeme"
+    },
+    {
+      "id": "credit_card",
+      "name": "Kredi Kartı",
+      "description": "Kredi kartı ile ödeme"
+    },
+    {
+      "id": "check",
+      "name": "Çek",
+      "description": "Çek ile ödeme"
+    }
+  ],
+  "expenseCategories": [
+    {
+      "id": "supplier_payment",
+      "name": "Tedarikçi Ödemeleri",
+      "description": "Satın alma ödemeleri"
+    },
+    {
+      "id": "operating_expense",
+      "name": "İşletme Giderleri",
+      "description": "Kira, fatura vb. giderler"
+    },
+    {
+      "id": "salary",
+      "name": "Personel Giderleri",
+      "description": "Maaş ve sosyal haklar"
+    },
+    {
+      "id": "marketing",
+      "name": "Pazarlama Giderleri",
+      "description": "Reklam ve promosyon giderleri"
+    },
+    {
+      "id": "travel",
+      "name": "Seyahat Giderleri",
+      "description": "İş seyahatleri ve ulaşım"
+    }
+  ]
+}

@@ -1,0 +1,429 @@
+{
+  "suppliers": [
+    {
+      "id": "1",
+      "name": "MedProtect Europe GmbH",
+      "type": "manufacturer",
+      "taxNumber": "DE123456789",
+      "contactPerson": "Klaus Schmidt",
+      "email": "klaus.schmidt@medprotect.de",
+      "phone": "+49 30 12345678",
+      "website": "https://www.medprotect-europe.com",
+      "address": {
+        "street": "Alexanderplatz 15",
+        "city": "Berlin",
+        "postalCode": "10178",
+        "country": "Almanya"
+      },
+      "status": "active",
+      "rating": 4.8,
+      "category": "personal_protection",
+      "paymentTerms": "30 gün",
+      "deliveryTime": "14-21 gün",
+      "minOrderAmount": 50000,
+      "currency": "EUR",
+      "certifications": ["ISO9001", "ISO13485", "CE", "FDA"],
+      "assignedBuyer": "5",
+      "assignedBuyerName": "Emre Avcı",
+      "createdAt": "2024-01-10T09:00:00Z",
+      "updatedAt": "2024-12-18T11:30:00Z",
+      "lastOrderDate": "2024-12-15T10:20:00Z",
+      "totalOrders": 28,
+      "totalAmount": 4250000,
+      "notes": "Ana tedarikçi - güvenilir ve kaliteli",
+      "tags": ["ana tedarikçi", "avrupa", "kaliteli"]
+    },
+    {
+      "id": "2",
+      "name": "Medical Devices International KK",
+      "type": "distributor",
+      "taxNumber": "JP987654321",
+      "contactPerson": "Takeshi Yamamoto",
+      "email": "t.yamamoto@mdi-japan.co.jp",
+      "phone": "+81 3 1234 5678",
+      "website": "https://www.mdi-japan.co.jp",
+      "address": {
+        "street": "Tokyo Station 1-1-1",
+        "city": "Tokyo",
+        "postalCode": "100-0005",
+        "country": "Japonya"
+      },
+      "status": "active",
+      "rating": 4.6,
+      "category": "medical_devices",
+      "paymentTerms": "45 gün",
+      "deliveryTime": "21-30 gün",
+      "minOrderAmount": 100000,
+      "currency": "USD",
+      "certifications": ["ISO9001", "ISO13485", "JIS"],
+      "assignedBuyer": "5",
+      "assignedBuyerName": "Emre Avcı",
+      "createdAt": "2024-01-15T14:20:00Z",
+      "updatedAt": "2024-12-17T16:45:00Z",
+      "lastOrderDate": "2024-12-12T09:30:00Z",
+      "totalOrders": 15,
+      "totalAmount": 2850000,
+      "notes": "Yüksek teknoloji tıbbi cihazlar",
+      "tags": ["teknoloji", "japonya", "cihazlar"]
+    },
+    {
+      "id": "3",
+      "name": "PharmaTrade Türkiye A.Ş.",
+      "type": "local_distributor",
+      "taxNumber": "1122334455",
+      "contactPerson": "Dr. Ayhan Özkan",
+      "email": "ayhan.ozkan@pharmatrade.com.tr",
+      "phone": "+90 212 555 1234",
+      "website": "https://www.pharmatrade.com.tr",
+      "address": {
+        "street": "Levent Mahallesi Buyukdere Cad. No:201",
+        "city": "İstanbul",
+        "postalCode": "34394",
+        "country": "Türkiye"
+      },
+      "status": "active",
+      "rating": 4.4,
+      "category": "pharmaceuticals",
+      "paymentTerms": "30 gün",
+      "deliveryTime": "3-7 gün",
+      "minOrderAmount": 25000,
+      "currency": "TRY",
+      "certifications": ["GMP", "ISO9001", "TITCK"],
+      "assignedBuyer": "5",
+      "assignedBuyerName": "Emre Avcı",
+      "createdAt": "2024-02-01T10:15:00Z",
+      "updatedAt": "2024-12-16T14:20:00Z",
+      "lastOrderDate": "2024-12-14T11:45:00Z",
+      "totalOrders": 42,
+      "totalAmount": 3150000,
+      "notes": "Yerel distribütör - hızlı teslimat",
+      "tags": ["yerel", "hızlı teslimat", "ilaç"]
+    },
+    {
+      "id": "4",
+      "name": "WoundCare Europe BVBA",
+      "type": "manufacturer",
+      "taxNumber": "BE0123456789",
+      "contactPerson": "Marie Dubois",
+      "email": "marie.dubois@woundcare.be",
+      "phone": "+32 2 123 4567",
+      "website": "https://www.woundcare-europe.com",
+      "address": {
+        "street": "Avenue Louise 54",
+        "city": "Brussels",
+        "postalCode": "1050",
+        "country": "Belçika"
+      },
+      "status": "active",
+      "rating": 4.7,
+      "category": "wound_care",
+      "paymentTerms": "30 gün",
+      "deliveryTime": "10-14 gün",
+      "minOrderAmount": 35000,
+      "currency": "EUR",
+      "certifications": ["CE", "ISO13485", "EN14155"],
+      "assignedBuyer": "5",
+      "assignedBuyerName": "Emre Avcı",
+      "createdAt": "2024-02-10T13:30:00Z",
+      "updatedAt": "2024-12-15T09:10:00Z",
+      "lastOrderDate": "2024-12-10T15:20:00Z",
+      "totalOrders": 22,
+      "totalAmount": 1890000,
+      "notes": "Yara bakım uzmanı tedarikçi",
+      "tags": ["yara bakımı", "avrupa", "uzman"]
+    },
+    {
+      "id": "5",
+      "name": "Asian Medical Supply Co. Ltd",
+      "type": "manufacturer",
+      "taxNumber": "CN555666777",
+      "contactPerson": "Li Wei",
+      "email": "li.wei@ams-china.com",
+      "phone": "+86 21 1234 5678",
+      "website": "https://www.ams-china.com",
+      "address": {
+        "street": "Shanghai Industrial Zone Block A-15",
+        "city": "Shanghai",
+        "postalCode": "200000",
+        "country": "Çin"
+      },
+      "status": "active",
+      "rating": 4.2,
+      "category": "injection_equipment",
+      "paymentTerms": "60 gün",
+      "deliveryTime": "30-45 gün",
+      "minOrderAmount": 75000,
+      "currency": "USD",
+      "certifications": ["ISO9001", "CE", "FDA"],
+      "assignedBuyer": "5",
+      "assignedBuyerName": "Emre Avcı",
+      "createdAt": "2024-02-20T11:45:00Z",
+      "updatedAt": "2024-12-14T12:40:00Z",
+      "lastOrderDate": "2024-12-08T16:30:00Z",
+      "totalOrders": 18,
+      "totalAmount": 2340000,
+      "notes": "Maliyet avantajlı tedarikçi",
+      "tags": ["maliyet avantajlı", "çin", "büyük hacim"]
+    },
+    {
+      "id": "6",
+      "name": "US Medical Technology Inc.",
+      "type": "manufacturer",
+      "taxNumber": "US123456789",
+      "contactPerson": "John Mitchell",
+      "email": "john.mitchell@usmedtech.com",
+      "phone": "+1 212 555 1234",
+      "website": "https://www.usmedtech.com",
+      "address": {
+        "street": "Manhattan Medical District 450 W 33rd St",
+        "city": "New York",
+        "postalCode": "10001",
+        "country": "ABD"
+      },
+      "status": "active",
+      "rating": 4.9,
+      "category": "medical_devices",
+      "paymentTerms": "30 gün",
+      "deliveryTime": "21-28 gün",
+      "minOrderAmount": 150000,
+      "currency": "USD",
+      "certifications": ["FDA", "ISO13485", "UL", "FCC"],
+      "assignedBuyer": "5",
+      "assignedBuyerName": "Emre Avcı",
+      "createdAt": "2024-03-05T15:20:00Z",
+      "updatedAt": "2024-12-13T10:55:00Z",
+      "lastOrderDate": "2024-12-07T12:15:00Z",
+      "totalOrders": 8,
+      "totalAmount": 3650000,
+      "notes": "Premium kalite, yüksek teknoloji",
+      "tags": ["premium", "abd", "yüksek teknoloji"]
+    },
+    {
+      "id": "7",
+      "name": "German Medical Furniture GmbH",
+      "type": "manufacturer",
+      "taxNumber": "DE987654321",
+      "contactPerson": "Hans Weber",
+      "email": "hans.weber@gmf-deutschland.de",
+      "phone": "+49 89 1234 5678",
+      "website": "https://www.gmf-deutschland.de",
+      "address": {
+        "street": "Industriestraße 45",
+        "city": "Munich",
+        "postalCode": "80807",
+        "country": "Almanya"
+      },
+      "status": "active",
+      "rating": 4.8,
+      "category": "furniture",
+      "paymentTerms": "45 gün",
+      "deliveryTime": "45-60 gün",
+      "minOrderAmount": 200000,
+      "currency": "EUR",
+      "certifications": ["CE", "ISO9001", "DIN", "TUV"],
+      "assignedBuyer": "5",
+      "assignedBuyerName": "Emre Avcı",
+      "createdAt": "2024-03-15T09:30:00Z",
+      "updatedAt": "2024-12-12T14:25:00Z",
+      "lastOrderDate": "2024-12-05T11:40:00Z",
+      "totalOrders": 5,
+      "totalAmount": 1850000,
+      "notes": "Özel yapım medikal mobilya",
+      "tags": ["özel yapım", "almanya", "mobilya"]
+    }
+  ],
+  "purchaseOrders": [
+    {
+      "id": "PO-2024-001",
+      "supplierId": "1",
+      "supplierName": "MedProtect Europe GmbH",
+      "orderDate": "2024-12-15T10:20:00Z",
+      "expectedDeliveryDate": "2025-01-05T00:00:00Z",
+      "status": "confirmed",
+      "totalAmount": 125000,
+      "currency": "EUR",
+      "paymentTerms": "30 gün",
+      "createdBy": "5",
+      "createdByName": "Emre Avcı",
+      "items": [
+        {
+          "id": "1",
+          "productId": "1",
+          "productName": "Cerrahi Maske FFP2",
+          "sku": "MASK-FFP2-001",
+          "quantity": 50000,
+          "unitPrice": 2.10,
+          "totalPrice": 105000,
+          "deliveryDate": "2025-01-05T00:00:00Z"
+        },
+        {
+          "id": "2",
+          "productId": "2",
+          "productName": "Eldiven Nitril Mavi",
+          "sku": "GLOVE-NIT-002",
+          "quantity": 1000,
+          "unitPrice": 20.00,
+          "totalPrice": 20000,
+          "deliveryDate": "2025-01-05T00:00:00Z"
+        }
+      ],
+      "deliveryAddress": {
+        "street": "Blabmarket Depo",
+        "city": "İstanbul",
+        "postalCode": "34000",
+        "country": "Türkiye"
+      },
+      "notes": "Yıllık ana sipariş - 1. çeyrek",
+      "createdAt": "2024-12-15T10:20:00Z",
+      "updatedAt": "2024-12-15T11:30:00Z"
+    },
+    {
+      "id": "PO-2024-002",
+      "supplierId": "3",
+      "supplierName": "PharmaTrade Türkiye A.Ş.",
+      "orderDate": "2024-12-14T11:45:00Z",
+      "expectedDeliveryDate": "2024-12-21T00:00:00Z",
+      "status": "shipped",
+      "totalAmount": 85750,
+      "currency": "TRY",
+      "paymentTerms": "30 gün",
+      "createdBy": "5",
+      "createdByName": "Emre Avcı",
+      "items": [
+        {
+          "id": "3",
+          "productId": "6",
+          "productName": "Paracetamol 500mg Tablet",
+          "sku": "PARA-500-006",
+          "quantity": 2000,
+          "unitPrice": 15.50,
+          "totalPrice": 31000,
+          "deliveryDate": "2024-12-21T00:00:00Z"
+        },
+        {
+          "id": "4",
+          "productId": "5",
+          "productName": "Serum Fizyolojik 100ml",
+          "sku": "SERUM-PHY-005",
+          "quantity": 5000,
+          "unitPrice": 7.25,
+          "totalPrice": 36250,
+          "deliveryDate": "2024-12-21T00:00:00Z"
+        }
+      ],
+      "deliveryAddress": {
+        "street": "Blabmarket Depo",
+        "city": "İstanbul",
+        "postalCode": "34000",
+        "country": "Türkiye"
+      },
+      "notes": "Acil stok yenilemesi",
+      "trackingNumber": "PT-2024-5678",
+      "createdAt": "2024-12-14T11:45:00Z",
+      "updatedAt": "2024-12-18T09:20:00Z",
+      "shippedAt": "2024-12-18T09:20:00Z"
+    },
+    {
+      "id": "PO-2024-003",
+      "supplierId": "6",
+      "supplierName": "US Medical Technology Inc.",
+      "orderDate": "2024-12-07T12:15:00Z",
+      "expectedDeliveryDate": "2025-01-04T00:00:00Z",
+      "status": "pending",
+      "totalAmount": 57000,
+      "currency": "USD",
+      "paymentTerms": "30 gün",
+      "createdBy": "5",
+      "createdByName": "Emre Avcı",
+      "items": [
+        {
+          "id": "5",
+          "productId": "10",
+          "productName": "EKG Cihazı 3 Kanallı",
+          "sku": "ECG-3CH-010",
+          "quantity": 2,
+          "unitPrice": 28500.00,
+          "totalPrice": 57000,
+          "deliveryDate": "2025-01-04T00:00:00Z"
+        }
+      ],
+      "deliveryAddress": {
+        "street": "Blabmarket Depo",
+        "city": "İstanbul",
+        "postalCode": "34000",
+        "country": "Türkiye"
+      },
+      "notes": "Özel sipariş - hastane projesi için",
+      "createdAt": "2024-12-07T12:15:00Z",
+      "updatedAt": "2024-12-07T12:15:00Z"
+    }
+  ],
+  "supplierTypes": [
+    {
+      "id": "manufacturer",
+      "name": "Üretici",
+      "description": "Doğrudan üretici firmalar"
+    },
+    {
+      "id": "distributor",
+      "name": "Distribütör",
+      "description": "Uluslararası distribütör firmalar"
+    },
+    {
+      "id": "local_distributor",
+      "name": "Yerel Distribütör",
+      "description": "Türkiye'deki distribütör firmalar"
+    },
+    {
+      "id": "wholesaler",
+      "name": "Toptancı",
+      "description": "Toptan satış yapan firmalar"
+    }
+  ],
+  "purchaseOrderStatuses": [
+    {
+      "id": "draft",
+      "name": "Taslak",
+      "description": "Sipariş hazırlanıyor",
+      "color": "#94A3B8"
+    },
+    {
+      "id": "pending",
+      "name": "Beklemede",
+      "description": "Tedarikçi onayı bekleniyor",
+      "color": "#F59E0B"
+    },
+    {
+      "id": "confirmed",
+      "name": "Onaylandı",
+      "description": "Sipariş onaylandı",
+      "color": "#10B981"
+    },
+    {
+      "id": "shipped",
+      "name": "Sevk Edildi",
+      "description": "Kargo yolda",
+      "color": "#3B82F6"
+    },
+    {
+      "id": "delivered",
+      "name": "Teslim Edildi",
+      "description": "Mallar teslim alındı",
+      "color": "#059669"
+    },
+    {
+      "id": "cancelled",
+      "name": "İptal Edildi",
+      "description": "Sipariş iptal edildi",
+      "color": "#DC2626"
+    }
+  ],
+  "supplierCategories": [
+    "personal_protection",
+    "medical_devices", 
+    "pharmaceuticals",
+    "wound_care",
+    "injection_equipment",
+    "furniture"
+  ]
+}

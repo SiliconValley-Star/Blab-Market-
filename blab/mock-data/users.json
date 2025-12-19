@@ -1,0 +1,148 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "firstName": "Ahmet",
+      "lastName": "Yıldız",
+      "email": "ahmet.yildiz@blabmarket.com",
+      "password": "admin123",
+      "role": {
+        "id": "1",
+        "name": "admin",
+        "displayName": "Sistem Yöneticisi"
+      },
+      "avatar": "/images/avatars/ahmet-yildiz.jpg",
+      "phone": "+90 532 123 4567",
+      "department": "Yönetim",
+      "position": "Genel Müdür",
+      "isActive": true,
+      "createdAt": "2024-01-15T08:30:00Z",
+      "lastLoginAt": "2024-12-19T10:15:00Z",
+      "permissions": ["all"]
+    },
+    {
+      "id": "2",
+      "firstName": "Zeynep",
+      "lastName": "Kaya",
+      "email": "zeynep.kaya@blabmarket.com",
+      "password": "sales123",
+      "role": {
+        "id": "2",
+        "name": "sales",
+        "displayName": "Satış Temsilcisi"
+      },
+      "avatar": "/images/avatars/zeynep-kaya.jpg",
+      "phone": "+90 533 234 5678",
+      "department": "Satış",
+      "position": "Kıdemli Satış Temsilcisi",
+      "isActive": true,
+      "createdAt": "2024-02-20T09:00:00Z",
+      "lastLoginAt": "2024-12-19T09:45:00Z",
+      "permissions": ["customers", "sales", "tasks", "reports_view"],
+      "salesTarget": 150000,
+      "salesAchieved": 125000,
+      "region": "İstanbul"
+    },
+    {
+      "id": "3",
+      "firstName": "Mehmet",
+      "lastName": "Demir",
+      "email": "mehmet.demir@blabmarket.com",
+      "password": "finance123",
+      "role": {
+        "id": "3",
+        "name": "finance",
+        "displayName": "Finans Uzmanı"
+      },
+      "avatar": "/images/avatars/mehmet-demir.jpg",
+      "phone": "+90 534 345 6789",
+      "department": "Finans",
+      "position": "Mali İşler Uzmanı",
+      "isActive": true,
+      "createdAt": "2024-03-10T08:15:00Z",
+      "lastLoginAt": "2024-12-19T08:30:00Z",
+      "permissions": ["finance", "reports_view", "customers_view"]
+    },
+    {
+      "id": "4",
+      "firstName": "Ayşe",
+      "lastName": "Özkan",
+      "email": "ayse.ozkan@blabmarket.com",
+      "password": "support123",
+      "role": {
+        "id": "4",
+        "name": "customer_support",
+        "displayName": "Müşteri Destek Uzmanı"
+      },
+      "avatar": "/images/avatars/ayse-ozkan.jpg",
+      "phone": "+90 535 456 7890",
+      "department": "Müşteri Hizmetleri",
+      "position": "Müşteri İlişkileri Uzmanı",
+      "isActive": true,
+      "createdAt": "2024-04-05T10:30:00Z",
+      "lastLoginAt": "2024-12-19T11:20:00Z",
+      "permissions": ["customers", "tasks", "reports_view"],
+      "supportTicketsHandled": 245,
+      "customerSatisfactionRate": 4.6
+    },
+    {
+      "id": "5",
+      "firstName": "Emre",
+      "lastName": "Avcı",
+      "email": "emre.avci@blabmarket.com",
+      "password": "import123",
+      "role": {
+        "id": "5",
+        "name": "import_export",
+        "displayName": "İthalat/İhracat Uzmanı"
+      },
+      "avatar": "/images/avatars/emre-avci.jpg",
+      "phone": "+90 536 567 8901",
+      "department": "Lojistik",
+      "position": "Dış Ticaret Uzmanı",
+      "isActive": true,
+      "createdAt": "2024-05-12T09:45:00Z",
+      "lastLoginAt": "2024-12-19T07:50:00Z",
+      "permissions": ["products", "suppliers", "tasks", "reports_view"],
+      "shipmentsHandled": 89,
+      "countries": ["Almanya", "Çin", "İtalya", "Fransa"]
+    }
+  ],
+  "roles": [
+    {
+      "id": "1",
+      "name": "admin",
+      "displayName": "Sistem Yöneticisi",
+      "description": "Tüm sistem kaynaklarına erişim yetkisi",
+      "permissions": ["all"]
+    },
+    {
+      "id": "2",
+      "name": "sales",
+      "displayName": "Satış Temsilcisi",
+      "description": "Müşteri ilişkileri ve satış süreçleri yönetimi",
+      "permissions": ["customers", "sales", "tasks", "reports_view"]
+    },
+    {
+      "id": "3",
+      "name": "finance",
+      "displayName": "Finans Uzmanı",
+      "description": "Finansal işlemler ve muhasebe süreçleri",
+      "permissions": ["finance", "reports_view", "customers_view"]
+    },
+    {
+      "id": "4",
+      "name": "customer_support",
+      "displayName": "Müşteri Destek Uzmanı",
+      "description": "Müşteri şikayetleri ve destek talepleri",
+      "permissions": ["customers", "tasks", "reports_view"]
+    },
+    {
+      "id": "5",
+      "name": "import_export",
+      "displayName": "İthalat/İhracat Uzmanı",
+      "description": "Tedarik zinciri ve uluslararası ticaret",
+      "permissions": ["products", "suppliers", "tasks", "reports_view"]
+    }
+  ]
+}
