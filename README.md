@@ -650,35 +650,3 @@ chore: build süreçleri veya yardımcı araçlar
 ## 📝 Lisans
 
 Bu proje [MIT Lisansı](LICENSE) altında lisanslanmıştır.
-
----
-
-## 📞 İletişim
-
-- **Proje Sahibi**: Blabmarket
-- **E-posta**: info@blabmarket.com
-- **Website**: https://www.blabmarket.com
-- **GitHub Issues**: [Issues sayfasından](https://github.com/yourusername/blabmarket-crm/issues) sorularınızı iletebilirsiniz
-
----
-
-## 🎉 Teşekkürler
-
-Bu CRM sisteminin geliştirilmesinde emeği geçen tüm geliştiricilere, test ekibine ve katkıda bulunanlara teşekkürler!
-
-### Özel Teşekkürler
-
-- React ve TypeScript topluluğu
-- Tüm açık kaynak kütüphane geliştiricileri
-- Projeye katkıda bulunan herkese
-
----
-
-## 📌 Notlar
-
-- ⚠️ **Demo Sürümü**: Bu bir demo sürümüdür ve production kullanımı için ek güvenlik ve performans optimizasyonları gerekebilir.
-- 🔄 **Aktif Geliştirme**: Proje aktif olarak geliştirilmektedir. Yeni özellikler ve düzeltmeler düzenli olarak eklenmektedir.
-- 📚 **Dokümantasyon**: Detaylı dokümantasyon için `docs/` klasörüne bakın.
-
----
-
