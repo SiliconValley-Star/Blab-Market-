@@ -682,10 +682,3 @@ Bu CRM sisteminin geliştirilmesinde emeği geçen tüm geliştiricilere, test e
 
 ---
 
-<div align="center">
-
-**⭐ Projeyi beğendiyseniz yıldız vermeyi unutmayın! ⭐**
-
-Made with ❤️ by Blabmarket Team
-
-</div>
